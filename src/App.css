@@ -1,0 +1,40 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Garante tela cheia */
+html,
+
+#root {
+  width: 100%;
+  height: 100%;
+  
+}
+
+body{
+  border: 0;
+}
+
+#teste{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Gradiente da página inteira 
+body {
+  background: linear-gradient(
+    to bottom left,
+    #260101 10%,
+    #275950,
+    #91F2E9,
+    #389c92
+  );
+
+}
+
+*/
+
