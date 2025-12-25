@@ -1,8 +1,9 @@
 /* Reset básico */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bogle&display=swap');
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
 
 /* Garante tela cheia */
@@ -23,18 +24,4 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
-/* Gradiente da página inteira 
-body {
-  background: linear-gradient(
-    to bottom left,
-    #260101 10%,
-    #275950,
-    #91F2E9,
-    #389c92
-  );
-
-}
-
-*/
 
