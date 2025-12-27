@@ -7,13 +7,10 @@ import { FaGithubAlt } from "react-icons/fa";
 
 
 
-
-
-
 function Cabeca() {
   return (
     <>
-   
+   <div id="retrwet"></div>
    <div id='divisaoDeLayout'>
   <div id='portifolio' className='sombra'>
   <p>Portifolio Bases</p>

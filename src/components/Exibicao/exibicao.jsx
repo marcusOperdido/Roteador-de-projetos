@@ -1,17 +1,13 @@
-import '../../components/Exibicao/style.css'
+import '../../components/Exibicao/style.css';
 
-
-
-function Exibicao(){
-    return(
+function Exibicao() {
+  return (
     <>
-    <div id="caixaprincipal">
+      <div id="caixaprincipal"></div>
 
-    </div>
+    
     </>
-
-    )
-
+  );
 }
 
-export default Exibicao
+export default Exibicao;

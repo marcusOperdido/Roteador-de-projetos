@@ -1,26 +1,19 @@
-
-import './App.css'
-import Cabeca from './components/header'
-import CaixasDeSites from './components/caixasDeSites'
-import Exibicao from './components/Exibicao/exibicao'
+import './App.css';
+import Cabeca from './components/header';
+import CaixasDeSites from './components/caixasDeSites';
+import Exibicao from './components/Exibicao/exibicao';
 
 function CorpoPadrao() {
   return (
     <>
-   
-    <Cabeca></Cabeca>
-    <Exibicao></Exibicao>
-     <div id='teste'>
-    
-   
-     
-    <CaixasDeSites></CaixasDeSites>
+      <Cabeca></Cabeca>
+      <Exibicao></Exibicao>
+      <div id="teste">
         <CaixasDeSites></CaixasDeSites>
-   
-   </div>
+        <CaixasDeSites></CaixasDeSites>
+      </div>
     </>
-  )
+  );
 }
 
-export default CorpoPadrao
-
+export default CorpoPadrao;

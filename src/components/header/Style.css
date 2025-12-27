@@ -1,42 +1,32 @@
-*{
-  font-family:  "BBH Bogle", sans-serif;
+* {
+  font-family: 'BBH Bogle', sans-serif;
 }
 
-.sombra{
-   text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.295);
+.sombra {
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.295);
 }
 
-
-#todasAsCaixas{
+#todasAsCaixas {
   margin-left: 15px;
   margin-top: 15px;
 }
 
-#divisaoDeLayout{
- 
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    
+#divisaoDeLayout {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#portifolio{
-   display: flex;
-   margin-right: 500px;
-   font-size: 100px;
-   padding: 15px;   
-   text-shadow: 2px 3px 2px rgba(219, 35, 35, 0.295);
+#portifolio {
+  display: flex;
+  margin-right: 500px;
+  font-size: 100px;
+  padding: 15px;
+  text-shadow: 2px 3px 2px rgba(219, 35, 35, 0.295);
 }
 
-
-
-
-
-
-
-
-#caixa{
+#caixa {
   margin-left: 5px;
   display: flex;
   justify-content: left;
@@ -44,12 +34,12 @@
   font-size: 40px;
 }
 
-#descrição{
+#descrição {
   margin-left: 10px;
   font-size: 25px;
 }
 
-#icons{
+#icons {
   margin-top: 5px;
   width: 450px;
   margin-left: 15px;
@@ -58,13 +48,8 @@
   align-items: center;
   padding-bottom: 6px;
   border-bottom: 2px solid red;
-
 }
 
 #icons > * {
   margin-right: 5px;
-  
 }
-
-
-
