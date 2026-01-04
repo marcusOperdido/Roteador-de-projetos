@@ -1,12 +1,18 @@
+import { Children } from 'react'
 import '../caixasDeSites/style.css'
-import relogio from '../react-img/relogio.png'
+//import relogio from '../react-img/relogio.png'
 
-function CaixasDeSites() {
+
+
+
+function CaixasDeSites({src, alt, Children, onclick}) {
   return (
     <>
+
     <div id='card'className="movimento" >
     <div id='box'>
-       <img src={relogio} className="movimento teste" alt="Reloginho-fofo" id='relogio' title='Reloginho-Muito-Fofo'/>
+       <img src={src} alt={alt} className="movimento teste" id='relogio' title='Reloginho-Muito-Fofo' onclick={onclick}/>
+       {Children}
     </div>
 
     <div className="mini-bar">
