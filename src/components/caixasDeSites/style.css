@@ -1,6 +1,6 @@
 #card{
     position: relative;
-    
+    cursor: pointer;
     
     height: 200px;
     width: 400px;

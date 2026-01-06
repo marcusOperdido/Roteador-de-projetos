@@ -5,6 +5,8 @@ import Exibicao from './components/carroceu/carroceu.jsx';
 import Modal from './components/caixaDescritiva/modal.jsx';
 import { useState } from 'react';
 import relogio from './components/react-img/relogio.png';
+import DadosDetalhados from './components/dadosDetalhados/dados.jsx';
+
 
 function CorpoPadrao() {
   const [openModal, setOpenModal] = useState(false);
@@ -14,9 +16,10 @@ function CorpoPadrao() {
       <Cabeca />
       <Exibicao />
       <div id="teste">
-        <CaixasDeSites src={relogio} alt="Reloginho Fofo" />
-        <CaixasDeSites />
+        <CaixasDeSites src={relogio} alt="Reloginho Fofo" onClick={() => setOpenModal(true)} nome="Reloginho" descricao="Um relogio muito fofo" />
+        
         <button onClick={() => setOpenModal(true)}>Abrir Modal</button>
+
         <Modal
           nome="marcus"
           descricao="eu sou seu filho"
@@ -24,8 +27,11 @@ function CorpoPadrao() {
           setOpenModal={() => setOpenModal(!openModal)}
         ></Modal>
       </div>
+    <DadosDetalhados />
+
     </>
   );
 }
+
 
 export default CorpoPadrao;

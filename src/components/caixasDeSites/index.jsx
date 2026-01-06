@@ -1,27 +1,40 @@
-import { Children } from 'react'
-import '../caixasDeSites/style.css'
-//import relogio from '../react-img/relogio.png'
+import '../caixasDeSites/style.css';
+import { useState } from 'react';
+import Modal from '../caixaDescritiva/modal.jsx';
+
+//Card + Modal
+//Modal dentro do componente para reaproveitamento
+//Modal esta em outra pasta para melhor utilizaçao da estilizaão
+//"Descricao" e "nome" são variaveis que passam informaçoes para o modal
 
 
 
-
-function CaixasDeSites({src, alt, Children, onclick}) {
+function CaixasDeSites({ src, alt, children, nome, descricao }) {
+  const [openModal, setOpenModal] = useState(false);
   return (
     <>
+      <Modal
+        nome={nome}
+        descricao={descricao}
+        isOpen={openModal}
+        setOpenModal={() => setOpenModal(!openModal)}
+      ></Modal>
 
-    <div id='card'className="movimento" >
-    <div id='box'>
-       <img src={src} alt={alt} className="movimento teste" id='relogio' title='Reloginho-Muito-Fofo' onclick={onclick}/>
-       {Children}
-    </div>
-
-    <div className="mini-bar">
-    POMODORO
+      <div id="card" className="movimento" onClick={() => setOpenModal(true)}>
+        <div id="box">
+          <img
+            src={src}
+            alt={alt}
+            className="movimento teste"
+            id="relogio"
+            title="Reloginho-Muito-Fofo"
+          />
+          {children}
         </div>
-    </div>
+        <div className="mini-bar">POMODORO</div>
+      </div>
     </>
-  )
+  );
 }
 
-
-export default CaixasDeSites
+export default CaixasDeSites;

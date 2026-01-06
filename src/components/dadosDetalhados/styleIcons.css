@@ -1,0 +1,33 @@
+#todasAsCaixas {
+  margin-left: 15px;
+  margin-top: 15px;
+}
+#caixa {
+  margin-left: 5px;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  font-size: 40px;
+}
+
+#descrição {
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+
+
+#icons {
+  margin-top: 5px;
+  width: 450px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 6px;
+  border-bottom: 2px solid red;
+}
+
+#icons > * {
+  margin-right: 5px;
+}
