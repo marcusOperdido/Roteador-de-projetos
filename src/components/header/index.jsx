@@ -1,10 +1,20 @@
 import '../../components/header/style.css';
+import foto from './twitchcertinh.png';
+
+
+
 function Cabeca() {
   return (
     <>
+    <div id='fundoDoHeader'>
+      
         <div id="portifolio" className="sombra">
-          <p>Portifolio Bases</p>
+        Sites rodando 
         </div>
+        <div>
+        <img src={foto} alt="Foto de perfil" />
+      </div>
+    </div>
     </>
   );
 }

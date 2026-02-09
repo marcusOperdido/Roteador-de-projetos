@@ -6,7 +6,7 @@ import Modal from './components/caixaDescritiva/modal.jsx';
 import { useState } from 'react';
 import relogio from './components/react-img/relogio.png';
 import DadosDetalhados from './components/dadosDetalhados/dados.jsx';
-
+import Footer from './components/footer/footer.jsx';
 
 function CorpoPadrao() {
   const [openModal, setOpenModal] = useState(false);
@@ -28,6 +28,7 @@ function CorpoPadrao() {
         ></Modal>
       </div>
     <DadosDetalhados />
+    <Footer />
 
     </>
   );

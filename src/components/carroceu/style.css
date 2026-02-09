@@ -1,13 +1,12 @@
 
-
-
 /* ================================
    CONTAINER DO CAROUSEL
 ================================ */
 #caixaprincipal {
   width: 95%;              /* mais largo */
   max-width: 1300px;       /* antes 1000px */
-  margin: 60px auto;       /* mais respiro */
+  margin: 60px auto;
+  margin-top: 250px;       /* mais respiro */
 
   border-radius: 22px;
   overflow: hidden;
