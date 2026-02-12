@@ -1,17 +1,13 @@
 /* FUNDO*/
 #externo {
-  margin-left: 60px;
   min-height: 50vh;
-  width: 100% !important;
-
+  width: 100%;
   display: flex;
   align-items: center;
-
-  background: #031A26;
-  padding: 0;
 }
 
 .bloco {
+  margin-left: 123px;
   width: 45%;
   margin-right: 80px;
 }
@@ -29,7 +25,7 @@
   font-weight: 800;
   letter-spacing: 1px;
 
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 24px;
   
   position: relative;
@@ -52,7 +48,7 @@
 .texto-objetivo {
   font-size: 1.5rem;
   line-height: 1.9;
-  color: #cfd8dc;
+  color: #000000;
 text-align: justify;
   margin-bottom: 18px;
 }
