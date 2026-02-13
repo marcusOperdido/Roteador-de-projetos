@@ -9,67 +9,56 @@
 }
 
 
-
-#reader{
+#reader {
+  position: relative;
   margin-top: 120px;
-  height: 500px;
   width: 100%;
-  background: linear-gradient(to top, #ffffff 6.9%, #031A26 8%)
+  height: 500px;
+  background: linear-gradient(to top, #ffffff 6.9%, #031a26 8%);
 }
 
 #corpo {
   background: #ffffff;
- height: 500px;
+  height: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-
-#pes{
+#pes {
   height: 500px;
   width: 100%;
- background: linear-gradient(to bottom, #ffffff 6.9%, #031A26 8%)
+  background: linear-gradient(to bottom, #ffffff 6.9%, #031a26 8%);
 }
 
-/*
 .custom-shape-divider-bottom-1770849813 {
-    display: grid;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
+  position: absolute;
+  display: grid;
+  bottom: 0 ;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1770849813 svg {
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 255px;
-    transform: rotateY(180deg);
+  margin-top: 223px;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 255px;
+  transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1770849813 .shape-fill {
-    fill: #315c74; /* Azul para a parte superior da curva 
-}
-
-#sessao {
-    margin-top: 120px;
-    height: 500px;
-    width: 100%;
-    background-color: #031A26; /* Fundo azul em cima 
-    position: relative;
-    z-index: 1;
+  fill: #ffffff; /* Azul para a parte superior da curva */
 }
 
 #corpo {
-    background: #ffffff; /* Fundo branco abaixo da curva 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    z-index: 0; /* Garante que o conteúdo fique abaixo da curva 
+  background: #ffffff; /* Fundo branco abaixo da curva*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  z-index: 0; /* Garante que o conteúdo fique abaixo da curva*/
 }
 
 
- /* background-color: #DCDCDD; COR DO FOOTER */
- 
