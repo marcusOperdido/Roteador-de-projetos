@@ -6,6 +6,7 @@
   padding: 0;
   font-family: 'BBH Bogle', sans-serif;
   border: 0;
+  box-sizing: border-box;
 }
 
 
@@ -17,6 +18,36 @@
   background: linear-gradient(to top, #ffffff 6.9%, #031a26 8%);
 }
 
+#descricao-site-container {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#descricao-site {
+  font-size: 2em;
+  color: #ffffff;
+  display: flex;
+  
+
+
+}
+
+#testando {
+
+  position: absolute ; /* A imagem não vai afetar o fluxo do layout */
+}
+
+#caixinha-descritiva {
+  height: 200px;
+  width: 500px;
+  margin-right: 100px;
+  
+  
+}
+
 #corpo {
   background: #ffffff;
   height: 500px;
@@ -26,9 +57,11 @@
 }
 
 #pes {
-  height: 500px;
-  width: 100%;
-  background: linear-gradient(to bottom, #ffffff 6.9%, #031a26 8%);
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff 6.9%, #031a26 8%);
+    display: grid;
+    justify-content: space-evenly;
 }
 
 .custom-shape-divider-bottom-1770849813 {
@@ -38,7 +71,6 @@
   left: 0;
   width: 100%;
   overflow: hidden;
-  line-height: 0;
 }
 
 .custom-shape-divider-bottom-1770849813 svg {
