@@ -1,13 +1,11 @@
-import '../caixasDeSites/style.css';
+import './style.css';
 import { useState } from 'react';
-import Modal from '../caixaDescritiva/modal.jsx';
+import Modal from '../ModalBoxDemonstrativa/modal.jsx';
 
 //Card + Modal
 //Modal dentro do componente para reaproveitamento
 //Modal esta em outra pasta para melhor utilizaçao da estilizaão
 //"Descricao" e "nome" são variaveis que passam informaçoes para o modal
-
-
 
 function CaixasDeSites({ src, alt, children, nome, descricao }) {
   const [openModal, setOpenModal] = useState(false);

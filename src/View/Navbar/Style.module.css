@@ -1,10 +1,10 @@
 /* ===== HEADER ===== */
-#fundoDoHeader {
-  position: fixed;  
+.fundoDoHeader {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1000;     
+  z-index: 1000;
 
   background: linear-gradient(180deg, #000, #0d0d0d);
   display: flex;
@@ -16,7 +16,7 @@
 }
 
 /*TWITCH */
-#fundoDoHeader img {
+.Img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -24,9 +24,8 @@
   object-fit: cover;
 }
 
-
 /* Portifolio bases  */
-#portifolio {
+.titulo {
   position: relative;
   font-size: 45px;
   font-weight: 600;
@@ -41,7 +40,7 @@
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
-#portifolio:hover {
+.titulo:hover {
   transform: translateY(-2px);
   text-shadow:
     2px 2px 0 #9c0000,

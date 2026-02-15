@@ -1,9 +1,7 @@
-import './style.css';
+import './modal.modules.css';
 
+//Modal do card, onde tem o nome do site e a descrição, e um botão para fechar o modal
 export default function Modal({ isOpen, setOpenModal, nome, descricao }) {
-  
-  
-  
   if (isOpen) {
     return (
       <>

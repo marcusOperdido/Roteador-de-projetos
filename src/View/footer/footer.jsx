@@ -1,5 +1,7 @@
 import './foter.css';
 
+//Viwe do footer, onde tem o copyright do site
+
 export default function Footer() {
   return (
     <div id="footer">
