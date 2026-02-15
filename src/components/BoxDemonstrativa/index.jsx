@@ -1,6 +1,6 @@
 import './style.css';
 import { useState } from 'react';
-import Modal from '../ModalBoxDemonstrativa/modal.jsx';
+import Modal from './modal.jsx';
 
 //Card + Modal
 //Modal dentro do componente para reaproveitamento
@@ -23,7 +23,6 @@ function CaixasDeSites({ src, alt, children, nome, descricao }) {
           <img
             src={src}
             alt={alt}
-            className="movimento teste"
             id="relogio"
             title="Reloginho-Muito-Fofo"
           />

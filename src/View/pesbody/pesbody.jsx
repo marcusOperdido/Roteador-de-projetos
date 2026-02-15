@@ -1,4 +1,4 @@
-import './style.modules.css';
+import style from './style.module.css';
 import CaixasDeSites from '../../components/BoxDemonstrativa/index.jsx';
 import relogio from '../../components/react-img/relogio.png';
 import { useState } from 'react';
@@ -11,7 +11,7 @@ export default function PesBody() {
   const [openModal, setOpenModal] = useState(false);
 
   return (
-    <div id="pes">
+    <div className={style.pes}>
       <CaixasDeSites
         src={relogio}
         alt="Reloginho Fofo"

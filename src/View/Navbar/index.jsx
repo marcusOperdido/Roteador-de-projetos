@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './style.module.css'; // Importando o CSS Module
 import foto from './twitchcertinh.png';
 
