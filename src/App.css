@@ -7,18 +7,12 @@
   font-family: 'BBH Bogle', sans-serif;
   border: 0;
   box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 768px) {
-  .conteiner {
-    display: block;
-  }
-
-  * {
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+* {
     font-size: 9px;
-    background-image: none;
-     
-   
   }
   
 }

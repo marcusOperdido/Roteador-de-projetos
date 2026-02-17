@@ -23,7 +23,7 @@ function CaixasDeSites({ src, alt, children, nome, descricao }) {
           <img
             src={src}
             alt={alt}
-            id="relogio"
+            id="imagem"
             title="Reloginho-Muito-Fofo"
           />
           {children}

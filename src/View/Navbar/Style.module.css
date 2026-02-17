@@ -50,9 +50,10 @@
 
 
 
-/* teste de responsividqade com ia */
-@media screen and (max-width: 720px) {
+/* Responsividade para telefone  */
+@media screen and (max-width: 1024px) {
   .fundoDoHeader {
+   
     flex-direction: column;
     padding: 15px 20px;
   }

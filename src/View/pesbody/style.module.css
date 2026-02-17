@@ -7,7 +7,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .pes {
-    height: 350px;
+         .pes {
+      height: 350px;
+    }
 }
+
+@media screen and (min-width: 779px) and (max-width: 1024px) {
+         .pes {
+        font-size: auto;
+    }
 }

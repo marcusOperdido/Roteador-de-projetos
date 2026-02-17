@@ -16,3 +16,9 @@ Note: This will impact Vite dev & build performances.
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Site pessoal destinado a portiflio produzido ou em qual eu participei. 
+    Muitos desses codigos estão em rodução ou estão em desolvivomento então o codigo fonte não pode ser compartilhado 
+        Porem, os que odem ser compartilhados estão por aqui.
