@@ -3,8 +3,6 @@ import styles from './style.module.css';  // Importando o CSS Module
 
 // View do corpo, onde tem textos genéricos
 
-
-
 export default function BodyBody() {
   return (
     <>

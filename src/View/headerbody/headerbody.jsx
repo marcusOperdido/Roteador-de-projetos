@@ -19,7 +19,7 @@ function Reader() {
 function CaixaDoPc() {
   return (
     <div className={styles.caixaDoPc}>
-      <img src={pc} alt="Computador" />
+      <img src={pc} alt="Computador" className={styles.imgPc} />
     </div>
   );
 }

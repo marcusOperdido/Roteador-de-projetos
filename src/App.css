@@ -9,3 +9,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+  .conteiner {
+    display: block;
+  }
+
+  * {
+    font-size: 9px;
+    background-image: none;
+     
+   
+  }
+  
+}
+

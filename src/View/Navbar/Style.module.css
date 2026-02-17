@@ -46,3 +46,27 @@
     2px 2px 0 #9c0000,
     4px 4px 10px rgba(0, 0, 0, 0.7);
 }
+
+
+
+
+/* teste de responsividqade com ia */
+@media screen and (max-width: 720px) {
+  .fundoDoHeader {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .titulo {
+    font-size: 26px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+
+  .Img {
+    width: 50px;
+    height: 50px;
+    border-width: 3px;
+   
+  }
+}
