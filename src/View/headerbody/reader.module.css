@@ -59,16 +59,17 @@
     padding: 0 20px;
   }
    .reader{
-    height: 350px;
+    height: 500px;
    }
   .caixinhaDescritiva {
     width: 100%;
     margin-top: 200px;
-    margin-left: 50px;
+    margin-left: 20%;
+    font-size: 15px;
   }
   .imgPc {
     height: 150px;
-    left: 43%;
+    left: 50%;
     position: absolute;
     top: 20%;
     transform: translate(-50%, -50%);
